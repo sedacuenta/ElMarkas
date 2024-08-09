@@ -1,0 +1,97 @@
+h1 {
+    background-color: #7fffd4;
+    color: darkcyan;
+    font-style: italic;
+    border: none;
+    border-radius: 20px;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+header {
+    background-color: #ff4d4d;
+    /* Un rojo más suave */
+    color: white;
+    /* Texto en blanco para contraste */
+    padding: 20px;
+    /* Espaciado interior */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Sombra para dar profundidad */
+    border-bottom: 5px solid #b30000;
+    /* Borde inferior para un efecto más definido */
+    text-align: center;
+    /* Centrar el contenido */
+    font-family: 'Arial', sans-serif;
+    /* Fuente más moderna */
+    font-size: 1.5em;
+    /* Aumentar tamaño del texto */
+    position: sticky;
+    /* Hacer que el header sea sticky al hacer scroll */
+    top: 0;
+    /* Para que el header se mantenga al tope */
+    z-index: 1000;
+    /* Asegurar que esté por encima de otros elementos */
+}
+
+
+/* Opcional: estilos para los elementos dentro del header, como enlaces */
+
+header a {
+    color: white;
+    /* Enlaces en blanco */
+    text-decoration: none;
+    /* Sin subrayado */
+    margin: 0 15px;
+    /* Espaciado entre enlaces */
+    font-weight: bold;
+    /* Texto en negrita */
+    transition: color 0.3s ease;
+    /* Efecto de transición al pasar el ratón */
+}
+
+header a:hover {
+    color: #ffd700;
+    /* Cambiar color al pasar el ratón, dorado */
+}
+
+
+/* Estilo opcional para un logo dentro del header */
+
+header img.logo {
+    height: 50px;
+    /* Tamaño ajustado para el logo */
+    vertical-align: middle;
+    /* Alinear el logo con el texto */
+    margin-right: 15px;
+    /* Espacio entre el logo y el texto */
+}
+
+footer {
+    height: 60px;
+    /* Altura del footer */
+    background-color: #0e0d0d;
+    /* Color de fondo del footer */
+    text-align: center;
+    line-height: 60px;
+    /* Para centrar verticalmente el texto en el footer */
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+.detestoelautobus {
+    color: aqua
+}
+
+#Markitas {
+    border: 5px solid red;
+    /* Borde rojo alrededor de la imagen */
+    border-radius: 0px;
+    /* Si no quieres que las esquinas sean redondeadas */
+}
+
+#markiñas {
+    color: blacksssss
+}
