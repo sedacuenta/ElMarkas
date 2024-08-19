@@ -8,6 +8,7 @@ h1 {
 
 body {
     background-color: aliceblue;
+    overflow:auto;
 }
 
 header {
@@ -93,5 +94,10 @@ footer {
 }
 
 #markiñas {
-    color: blacksssss
+    color: black
+}
+
+video {
+    height:100px;
+    width:100px;
 }
