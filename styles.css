@@ -8,7 +8,8 @@ h1 {
 
 body {
     background-color: aliceblue;
-    overflow:auto;
+    overflow-x:hidden;
+    overflow:scroll;
 }
 
 header {
@@ -98,6 +99,6 @@ footer {
 }
 
 video {
-    height:100px;
-    width:100px;
+    height:300px;
+    width:300px;
 }
